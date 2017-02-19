@@ -1,8 +1,593 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="db8aaa67-cfb3-4a94-a6a2-cb9c26b5357f" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/index.php" afterPath="" />
+    <list default="true" id="ed47de8c-7007-43cd-8146-f96e448df0b4" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/.htaccess" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/README" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/config/autoload.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/config/config.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/config/constants.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/config/database.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/config/doctypes.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/config/foreign_chars.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/config/hooks.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/config/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/config/memcached.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/config/migration.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/config/mimes.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/config/profiler.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/config/routes.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/config/smileys.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/config/user_agents.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/controllers/Gitblog.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/controllers/Wp2Gb.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/controllers/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/core/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/helpers/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/hooks/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/language/english/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/language/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libraries/Markdown.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libraries/Pager.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libraries/Twig.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libraries/WordPress.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libraries/Yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libraries/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/logs/README" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/models/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/Autoloader.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/Compiler.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/CompilerInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/Environment.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/Error.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/Error/Loader.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/Error/Runtime.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/Error/Syntax.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/ExistsLoaderInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/ExpressionParser.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/Extension.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/Extension/Core.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/Extension/Debug.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/Extension/Escaper.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/Extension/Optimizer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/Extension/Profiler.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/Extension/Sandbox.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/Extension/Staging.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/Extension/StringLoader.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/ExtensionInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/FileExtensionEscapingStrategy.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/Filter.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/Filter/Function.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/Filter/Method.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/Filter/Node.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/FilterCallableInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/FilterInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/Function.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/Function/Function.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/Function/Method.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/Function/Node.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/FunctionCallableInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/FunctionInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/Lexer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/LexerInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/Loader/Array.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/Loader/Chain.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/Loader/Filesystem.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/Loader/String.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/LoaderInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/Markup.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/Node.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/Node/AutoEscape.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/Node/Block.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/Node/BlockReference.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/Node/Body.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/Node/CheckSecurity.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/Node/Do.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/Node/Embed.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/Node/Expression.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/Node/Expression/Array.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/Node/Expression/AssignName.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/Node/Expression/Binary.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/Node/Expression/Binary/Add.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/Node/Expression/Binary/And.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/Node/Expression/Binary/BitwiseAnd.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/Node/Expression/Binary/BitwiseOr.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/Node/Expression/Binary/BitwiseXor.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/Node/Expression/Binary/Concat.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/Node/Expression/Binary/Div.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/Node/Expression/Binary/EndsWith.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/Node/Expression/Binary/Equal.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/Node/Expression/Binary/FloorDiv.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/Node/Expression/Binary/Greater.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/Node/Expression/Binary/GreaterEqual.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/Node/Expression/Binary/In.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/Node/Expression/Binary/Less.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/Node/Expression/Binary/LessEqual.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/Node/Expression/Binary/Matches.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/Node/Expression/Binary/Mod.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/Node/Expression/Binary/Mul.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/Node/Expression/Binary/NotEqual.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/Node/Expression/Binary/NotIn.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/Node/Expression/Binary/Or.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/Node/Expression/Binary/Power.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/Node/Expression/Binary/Range.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/Node/Expression/Binary/StartsWith.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/Node/Expression/Binary/Sub.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/Node/Expression/BlockReference.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/Node/Expression/Call.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/Node/Expression/Conditional.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/Node/Expression/Constant.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/Node/Expression/ExtensionReference.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/Node/Expression/Filter.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/Node/Expression/Filter/Default.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/Node/Expression/Function.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/Node/Expression/GetAttr.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/Node/Expression/MethodCall.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/Node/Expression/Name.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/Node/Expression/Parent.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/Node/Expression/TempName.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/Node/Expression/Test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/Node/Expression/Test/Constant.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/Node/Expression/Test/Defined.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/Node/Expression/Test/Divisibleby.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/Node/Expression/Test/Even.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/Node/Expression/Test/Null.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/Node/Expression/Test/Odd.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/Node/Expression/Test/Sameas.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/Node/Expression/Unary.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/Node/Expression/Unary/Neg.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/Node/Expression/Unary/Not.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/Node/Expression/Unary/Pos.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/Node/Flush.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/Node/For.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/Node/ForLoop.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/Node/If.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/Node/Import.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/Node/Include.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/Node/Macro.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/Node/Module.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/Node/Print.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/Node/Sandbox.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/Node/SandboxedPrint.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/Node/Set.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/Node/SetTemp.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/Node/Spaceless.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/Node/Text.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/NodeInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/NodeOutputInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/NodeTraverser.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/NodeVisitor/Escaper.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/NodeVisitor/Optimizer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/NodeVisitor/SafeAnalysis.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/NodeVisitor/Sandbox.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/NodeVisitorInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/Parser.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/ParserInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/Profiler/Dumper/Blackfire.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/Profiler/Dumper/Html.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/Profiler/Dumper/Text.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/Profiler/Node/EnterProfile.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/Profiler/Node/LeaveProfile.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/Profiler/NodeVisitor/Profiler.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/Profiler/Profile.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/Sandbox/SecurityError.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/Sandbox/SecurityNotAllowedFilterError.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/Sandbox/SecurityNotAllowedFunctionError.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/Sandbox/SecurityNotAllowedTagError.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/Sandbox/SecurityPolicy.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/Sandbox/SecurityPolicyInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/SimpleFilter.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/SimpleFunction.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/SimpleTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/Template.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/TemplateInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/Test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/Test/Function.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/Test/IntegrationTestCase.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/Test/Method.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/Test/Node.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/Test/NodeTestCase.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/TestCallableInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/TestInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/Token.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/TokenParser.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/TokenParser/AutoEscape.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/TokenParser/Block.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/TokenParser/Do.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/TokenParser/Embed.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/TokenParser/Extends.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/TokenParser/Filter.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/TokenParser/Flush.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/TokenParser/For.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/TokenParser/From.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/TokenParser/If.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/TokenParser/Import.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/TokenParser/Include.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/TokenParser/Macro.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/TokenParser/Sandbox.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/TokenParser/Set.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/TokenParser/Spaceless.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/TokenParser/Use.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/TokenParserBroker.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/TokenParserBrokerInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/TokenParserInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/Twig/TokenStream.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/parsedown/Parsedown.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/parsedown/ParsedownExtra.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/phpQuery/phpQuery.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/phpQuery/phpQuery/Callback.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/phpQuery/phpQuery/DOMDocumentWrapper.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/phpQuery/phpQuery/DOMEvent.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/phpQuery/phpQuery/Zend/Exception.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/phpQuery/phpQuery/Zend/Http/Client.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/phpQuery/phpQuery/Zend/Http/Client/Adapter/Exception.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/phpQuery/phpQuery/Zend/Http/Client/Adapter/Interface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/phpQuery/phpQuery/Zend/Http/Client/Adapter/Proxy.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/phpQuery/phpQuery/Zend/Http/Client/Adapter/Socket.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/phpQuery/phpQuery/Zend/Http/Client/Adapter/Test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/phpQuery/phpQuery/Zend/Http/Client/Exception.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/phpQuery/phpQuery/Zend/Http/Cookie.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/phpQuery/phpQuery/Zend/Http/CookieJar.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/phpQuery/phpQuery/Zend/Http/Exception.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/phpQuery/phpQuery/Zend/Http/Response.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/phpQuery/phpQuery/Zend/Json/Decoder.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/phpQuery/phpQuery/Zend/Json/Encoder.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/phpQuery/phpQuery/Zend/Json/Exception.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/phpQuery/phpQuery/Zend/Loader.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/phpQuery/phpQuery/Zend/Registry.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/phpQuery/phpQuery/Zend/Uri.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/phpQuery/phpQuery/Zend/Uri/Exception.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/phpQuery/phpQuery/Zend/Uri/Http.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/phpQuery/phpQuery/Zend/Validate/Abstract.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/phpQuery/phpQuery/Zend/Validate/Alnum.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/phpQuery/phpQuery/Zend/Validate/Alpha.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/phpQuery/phpQuery/Zend/Validate/Barcode.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/phpQuery/phpQuery/Zend/Validate/Barcode/Ean13.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/phpQuery/phpQuery/Zend/Validate/Barcode/UpcA.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/phpQuery/phpQuery/Zend/Validate/Between.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/phpQuery/phpQuery/Zend/Validate/Ccnum.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/phpQuery/phpQuery/Zend/Validate/Date.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/phpQuery/phpQuery/Zend/Validate/Digits.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/phpQuery/phpQuery/Zend/Validate/EmailAddress.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/phpQuery/phpQuery/Zend/Validate/Exception.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/phpQuery/phpQuery/Zend/Validate/File/Count.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/phpQuery/phpQuery/Zend/Validate/File/Exists.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/phpQuery/phpQuery/Zend/Validate/File/Extension.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/phpQuery/phpQuery/Zend/Validate/File/FilesSize.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/phpQuery/phpQuery/Zend/Validate/File/ImageSize.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/phpQuery/phpQuery/Zend/Validate/File/MimeType.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/phpQuery/phpQuery/Zend/Validate/File/NotExists.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/phpQuery/phpQuery/Zend/Validate/File/Size.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/phpQuery/phpQuery/Zend/Validate/File/Upload.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/phpQuery/phpQuery/Zend/Validate/Float.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/phpQuery/phpQuery/Zend/Validate/GreaterThan.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/phpQuery/phpQuery/Zend/Validate/Hex.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/phpQuery/phpQuery/Zend/Validate/Hostname.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/phpQuery/phpQuery/Zend/Validate/Hostname/At.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/phpQuery/phpQuery/Zend/Validate/Hostname/Ch.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/phpQuery/phpQuery/Zend/Validate/Hostname/De.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/phpQuery/phpQuery/Zend/Validate/Hostname/Fi.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/phpQuery/phpQuery/Zend/Validate/Hostname/Hu.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/phpQuery/phpQuery/Zend/Validate/Hostname/Interface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/phpQuery/phpQuery/Zend/Validate/Hostname/Li.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/phpQuery/phpQuery/Zend/Validate/Hostname/No.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/phpQuery/phpQuery/Zend/Validate/Hostname/Se.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/phpQuery/phpQuery/Zend/Validate/Identical.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/phpQuery/phpQuery/Zend/Validate/InArray.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/phpQuery/phpQuery/Zend/Validate/Int.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/phpQuery/phpQuery/Zend/Validate/Interface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/phpQuery/phpQuery/Zend/Validate/Ip.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/phpQuery/phpQuery/Zend/Validate/LessThan.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/phpQuery/phpQuery/Zend/Validate/NotEmpty.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/phpQuery/phpQuery/Zend/Validate/Regex.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/phpQuery/phpQuery/Zend/Validate/StringLength.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/phpQuery/phpQuery/bootstrap.example.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/phpQuery/phpQuery/compat/mbstring.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/phpQuery/phpQuery/phpQueryEvents.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/phpQuery/phpQuery/phpQueryObject.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/phpQuery/phpQuery/plugins/Scripts.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/phpQuery/phpQuery/plugins/Scripts/__config.example.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/phpQuery/phpQuery/plugins/Scripts/example.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/phpQuery/phpQuery/plugins/Scripts/fix_webroot.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/phpQuery/phpQuery/plugins/Scripts/google_login.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/phpQuery/phpQuery/plugins/Scripts/print_source.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/phpQuery/phpQuery/plugins/Scripts/print_websafe.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/phpQuery/phpQuery/plugins/WebBrowser.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/phpQuery/phpQuery/plugins/example.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/third_party/spyc/Spyc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/errors/cli/error_404.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/errors/cli/error_db.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/errors/cli/error_exception.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/errors/cli/error_general.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/errors/cli/error_php.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/errors/cli/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/errors/html/error_404.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/errors/html/error_db.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/errors/html/error_exception.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/errors/html/error_general.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/errors/html/error_php.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/errors/html/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/errors/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/feed.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/img/logo_128x128.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/img/logo_32x32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/img/logo_64x64.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/welcome.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/conf.yaml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/example-conf.yaml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/history.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/robots.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sys/.htaccess" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sys/core/Benchmark.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sys/core/CodeIgniter.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sys/core/Common.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sys/core/Config.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sys/core/Controller.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sys/core/Exceptions.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sys/core/Hooks.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sys/core/Input.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sys/core/Lang.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sys/core/Loader.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sys/core/Log.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sys/core/Model.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sys/core/Output.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sys/core/Router.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sys/core/Security.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sys/core/URI.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sys/core/Utf8.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sys/core/compat/hash.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sys/core/compat/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sys/core/compat/mbstring.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sys/core/compat/password.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sys/core/compat/standard.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sys/core/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sys/fonts/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sys/fonts/texb.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sys/helpers/array_helper.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sys/helpers/captcha_helper.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sys/helpers/cookie_helper.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sys/helpers/date_helper.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sys/helpers/directory_helper.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sys/helpers/download_helper.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sys/helpers/email_helper.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sys/helpers/file_helper.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sys/helpers/form_helper.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sys/helpers/html_helper.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sys/helpers/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sys/helpers/inflector_helper.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sys/helpers/language_helper.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sys/helpers/number_helper.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sys/helpers/path_helper.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sys/helpers/security_helper.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sys/helpers/smiley_helper.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sys/helpers/string_helper.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sys/helpers/text_helper.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sys/helpers/typography_helper.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sys/helpers/url_helper.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sys/helpers/xml_helper.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sys/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sys/language/english/calendar_lang.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sys/language/english/date_lang.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sys/language/english/db_lang.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sys/language/english/email_lang.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sys/language/english/form_validation_lang.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sys/language/english/ftp_lang.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sys/language/english/imglib_lang.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sys/language/english/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sys/language/english/migration_lang.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sys/language/english/number_lang.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sys/language/english/pagination_lang.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sys/language/english/profiler_lang.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sys/language/english/unit_test_lang.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sys/language/english/upload_lang.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sys/language/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sys/libraries/Cache/Cache.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sys/libraries/Cache/drivers/Cache_apc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sys/libraries/Cache/drivers/Cache_dummy.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sys/libraries/Cache/drivers/Cache_file.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sys/libraries/Cache/drivers/Cache_memcached.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sys/libraries/Cache/drivers/Cache_redis.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sys/libraries/Cache/drivers/Cache_wincache.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sys/libraries/Cache/drivers/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sys/libraries/Cache/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sys/libraries/Calendar.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sys/libraries/Cart.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sys/libraries/Driver.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sys/libraries/Email.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sys/libraries/Encrypt.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sys/libraries/Encryption.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sys/libraries/Form_validation.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sys/libraries/Ftp.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sys/libraries/Image_lib.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sys/libraries/Javascript.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sys/libraries/Javascript/Jquery.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sys/libraries/Javascript/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sys/libraries/Migration.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sys/libraries/Pagination.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sys/libraries/Parser.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sys/libraries/Profiler.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sys/libraries/Session/Session.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sys/libraries/Session/SessionHandlerInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sys/libraries/Session/Session_driver.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sys/libraries/Session/drivers/Session_database_driver.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sys/libraries/Session/drivers/Session_files_driver.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sys/libraries/Session/drivers/Session_memcached_driver.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sys/libraries/Session/drivers/Session_redis_driver.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sys/libraries/Session/drivers/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sys/libraries/Session/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sys/libraries/Table.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sys/libraries/Trackback.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sys/libraries/Typography.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sys/libraries/Unit_test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sys/libraries/Upload.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sys/libraries/User_agent.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sys/libraries/Xmlrpc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sys/libraries/Xmlrpcs.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sys/libraries/Zip.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sys/libraries/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/beach/404.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/beach/_includes/footer.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/beach/_includes/pagenav.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/beach/_includes/post.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/beach/_layouts/base.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/beach/_layouts/sidebar.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/beach/_layouts/struct.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/beach/css/markdown.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/beach/css/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/beach/detail.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/beach/images/contentsbg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/beach/images/footerbg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/beach/images/footerbg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/beach/images/headerbg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/beach/images/htmlbg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/beach/images/pagebg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/beach/images/sidebarli.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/beach/images/ulli.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/beach/images/wrapbg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/beach/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/beach/js/belatedPNG.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/beach/js/jquery-1.4.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/beach/js/loopedslider.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/beach/js/loopedslider.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/cube/404.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/cube/_includes/404content.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/cube/_includes/content.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/cube/_includes/detailcontent.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/cube/_includes/footer.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/cube/_includes/head.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/cube/_includes/header.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/cube/_includes/posts.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/cube/_layouts/default.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/cube/css/font-awesome.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/cube/css/main.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/cube/css/style-mobile.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/cube/css/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/cube/detail.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/cube/fonts/FontAwesome.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/cube/fonts/fontawesome-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/cube/fonts/fontawesome-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/cube/fonts/fontawesome-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/cube/fonts/fontawesome-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/cube/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/default/block/base.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/default/block/comments.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/default/block/content.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/default/block/footer.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/default/block/homeContent.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/default/block/nav.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/default/block/script.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/default/block/sidebar.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/default/blog/blog.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/default/blog/content.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/default/blog/footer.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/default/blog/header.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/default/css/font/LeFlHvsZjXu2c3ZRgBq9nFtXRa8TVwTICgirnJhmVJw.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/default/css/font/PIbvSEyHEdL91QLOQRnZ1-gdm0LZdjqr5-oayXSOefg.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/default/css/font/eCpfeMZI7q4jLksXVRWPQ_k_vArhqVIZ0nv9q090hN8.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/default/css/font/lJAvZoKA5NttpPc9yc6lPYWiMMZ7xLd792ULpGE4W_Y.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/default/css/genericons.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/default/css/ie.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/default/css/ie7.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/default/css/markdown-github.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/default/css/markdown.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/default/css/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/default/detail.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/default/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/default/js/customize-preview.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/default/js/functions.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/default/js/html5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/default/js/jquery/jquery-migrate.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/default/js/jquery/jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/default/js/keyboard-image-navigation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/default/js/skip-link-focus-fix.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/default/widget/archive.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/default/widget/categories.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/default/widget/recent.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/default/widget/tagcloud.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/default/widget/text.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/line/404.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/line/_includes/head.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/line/_includes/posts.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/line/_layouts/default.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/line/css/font-awesome.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/line/css/fonts/FontAwesome.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/line/css/fonts/fontawesome-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/line/css/fonts/fontawesome-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/line/css/fonts/fontawesome-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/line/css/fonts/fontawesome-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/line/css/images/favicon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/line/css/main.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/line/css/markdown.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/line/css/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/line/detail.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/line/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/quest/404.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/quest/assets/js/quest.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/quest/assets/plugins/bootstrap/css/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/quest/assets/plugins/bootstrap/js/bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/quest/assets/plugins/colorbox/jquery.colorbox-min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/quest/assets/plugins/font-awesome/css/font-awesome.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/quest/assets/plugins/font-awesome/fonts/FontAwesome.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/quest/assets/plugins/font-awesome/fonts/fontawesome-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/quest/assets/plugins/font-awesome/fonts/fontawesome-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/quest/assets/plugins/font-awesome/fonts/fontawesome-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/quest/assets/plugins/font-awesome/fonts/fontawesome-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/quest/assets/plugins/font-awesome/fonts/fontawesome-webfont.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/quest/assets/plugins/modernizr/modernizr.custom.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/quest/assets/plugins/wow/wow.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/quest/assets/plugins/wow/wow.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/quest/block/404content.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/quest/block/base.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/quest/block/breadcrumbs.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/quest/block/comments.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/quest/block/content.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/quest/block/footer.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/quest/block/header.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/quest/block/homeContent.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/quest/block/nav.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/quest/block/noresult.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/quest/block/secondary.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/quest/blog/blog.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/quest/blog/content.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/quest/blog/footer.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/quest/blog/header.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/quest/css/custom-editor-style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/quest/css/customizer.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/quest/css/font/DXI1ORHCpsQm3Vp6mXoaTegdm0LZdjqr5-oayXSOefg.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/quest/css/font/fontawesome-webfont.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/quest/css/markdown.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/quest/css/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/quest/detail.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/quest/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/quest/js/jquery/jquery-migrate.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/quest/js/jquery/jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/quest/js/masonry.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/quest/js/quest.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/quest/widget/archive.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/quest/widget/categories.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/quest/widget/recent.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/quest/widget/search.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/quest/widget/tagcloud.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/quest/widget/text.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/simple/404.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/simple/_includes/footer.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/simple/_includes/head.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/simple/_includes/header.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/simple/_layouts/default.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/simple/css/main.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/simple/detail.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/theme/simple/index.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/screenshot.png" afterPath="$PROJECT_DIR$/screenshot.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LICENSE" afterPath="$PROJECT_DIR$/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,31 +603,21 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="robots.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/robots.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2408">
-              <caret line="30" column="39" lean-forward="true" selection-start-line="30" selection-start-column="39" selection-end-line="30" selection-end-column="39" />
+            <state relative-caret-position="225">
+              <caret line="15" column="7" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="conf.yaml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/conf.yaml">
+      <file leaf-file-name="_config.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_config.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
-              <caret line="14" column="13" lean-forward="true" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+              <caret line="14" column="27" lean-forward="false" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -53,11 +628,49 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="0">
-                <caret line="0" column="6" lean-forward="false" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
+                <caret line="0" column="16" lean-forward="false" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="16" />
                 <folding />
               </first_editor>
               <second_editor />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sitemap.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sitemap.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cover.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/images/cover.jpg">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="profile.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/images/profile.jpg">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="android-chrome-36x36.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/images/favicons/android-chrome-36x36.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="android-chrome-72x72.png" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/images/favicons/android-chrome-72x72.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
@@ -74,8 +687,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/_config.yml" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/conf.yaml" />
       </list>
     </option>
   </component>
@@ -106,6 +719,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
@@ -130,19 +744,35 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="theme" />
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="favicons" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="js.eslint.eslintPackage" value="" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -150,61 +780,6 @@
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
-      <method />
-    </configuration>
-    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
-      <module name="" />
-      <option name="DEPLOY" value="true" />
-      <option name="ARTIFACT_NAME" value="" />
-      <option name="PM_INSTALL_OPTIONS" value="" />
-      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
-      <option name="MODE" value="default_activity" />
-      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
-      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
-      <option name="FORCE_STOP_RUNNING_APP" value="true" />
-      <option name="DEBUGGER_TYPE" value="Java" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
-      <option name="PREFERRED_AVD" value="" />
-      <Java />
-      <Profilers>
-        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
-        <option name="GAPID_ENABLED" value="false" />
-        <option name="GAPID_DISABLE_PCS" value="false" />
-        <option name="SUPPORT_LIB_ENABLED" value="true" />
-        <option name="INSTRUMENTATION_ENABLED" value="true" />
-      </Profilers>
-      <option name="DEEP_LINK" value="" />
-      <option name="ACTIVITY_CLASS" value="" />
-      <method />
-    </configuration>
-    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
-      <module name="" />
-      <option name="TESTING_TYPE" value="0" />
-      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="EXTRA_OPTIONS" value="" />
-      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
-      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
-      <option name="FORCE_STOP_RUNNING_APP" value="true" />
-      <option name="DEBUGGER_TYPE" value="Java" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
-      <option name="PREFERRED_AVD" value="" />
-      <Java />
-      <Profilers>
-        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
-        <option name="GAPID_ENABLED" value="false" />
-        <option name="GAPID_DISABLE_PCS" value="false" />
-        <option name="SUPPORT_LIB_ENABLED" value="true" />
-        <option name="INSTRUMENTATION_ENABLED" value="true" />
-      </Profilers>
       <method />
     </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
@@ -230,160 +805,6 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Cold Fusion runner description" factoryName="Cold Fusion" custom_browser="" web_path="">
-      <method />
-    </configuration>
-    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="myFilePath" />
-      <option name="GLUE" />
-      <option name="myNameFilter" />
-      <option name="myGeneratedName" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
-      <option name="BCName" value="" />
-      <option name="IOSSimulatorSdkPath" value="" />
-      <option name="adlOptions" value="" />
-      <option name="airProgramParameters" value="" />
-      <option name="appDescriptorForEmulator" value="Android" />
-      <option name="debugTransport" value="USB" />
-      <option name="debuggerSdkRaw" value="BC SDK" />
-      <option name="emulator" value="NexusOne" />
-      <option name="emulatorAdlOptions" value="" />
-      <option name="fastPackaging" value="true" />
-      <option name="fullScreenHeight" value="0" />
-      <option name="fullScreenWidth" value="0" />
-      <option name="launchUrl" value="false" />
-      <option name="launcherParameters">
-        <LauncherParameters>
-          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
-          <option name="launcherType" value="OSDefault" />
-          <option name="newPlayerInstance" value="false" />
-          <option name="playerPath" value="/Applications/Flash Player Debugger.app" />
-        </LauncherParameters>
-      </option>
-      <option name="mobileRunTarget" value="Emulator" />
-      <option name="moduleName" value="" />
-      <option name="overriddenMainClass" value="" />
-      <option name="overriddenOutputFileName" value="" />
-      <option name="overrideMainClass" value="false" />
-      <option name="runTrusted" value="true" />
-      <option name="screenDpi" value="0" />
-      <option name="screenHeight" value="0" />
-      <option name="screenWidth" value="0" />
-      <option name="url" value="http://" />
-      <option name="usbDebugPort" value="7936" />
-      <method />
-    </configuration>
-    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
-      <option name="BCName" value="" />
-      <option name="launcherParameters">
-        <LauncherParameters>
-          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
-          <option name="launcherType" value="OSDefault" />
-          <option name="newPlayerInstance" value="false" />
-          <option name="playerPath" value="/Applications/Flash Player Debugger.app" />
-        </LauncherParameters>
-      </option>
-      <option name="moduleName" value="" />
-      <option name="trusted" value="true" />
-      <method />
-    </configuration>
-    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list />
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <method />
-    </configuration>
-    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
-      <setting name="vmparams" value="" />
-      <setting name="cmdLine" value="run-app" />
-      <setting name="passParentEnv" value="true" />
-      <setting name="launchBrowser" value="true" />
-      <setting name="launchBrowserUrl" value="" />
-      <method />
-    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -405,73 +826,12 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="true" type="JarApplication" factoryName="JAR Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="SCRATCH_FILE_ID" value="0" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
-      <config-file value="" />
-      <node-interpreter value="project" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
-      <method />
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Blog" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <envs />
-      <method />
-    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
-      <method />
-    </configuration>
-    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <envs />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -502,43 +862,27 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
-      <method />
-    </configuration>
-    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
-      <command value="run" />
-      <scripts />
-      <node-interpreter value="project" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="osgi.bnd.run" factoryName="Run Launcher">
-      <method />
-    </configuration>
-    <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
-      <method />
-    </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="db8aaa67-cfb3-4a94-a6a2-cb9c26b5357f" name="Default" comment="" />
-      <created>1487481944461</created>
+      <changelist id="ed47de8c-7007-43cd-8146-f96e448df0b4" name="Default" comment="" />
+      <created>1487487626398</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1487481944461</updated>
-      <workItem from="1487481945815" duration="622000" />
+      <updated>1487487626398</updated>
+      <workItem from="1487487627677" duration="180000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="622000" />
+    <option name="totallyTimeSpent" value="180000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="4" y="23" width="1400" height="781" extended-state="0" />
-    <editor active="false" />
+    <frame x="4" y="23" width="1400" height="781" extended-state="1" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -554,7 +898,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2496318" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2496318" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -581,34 +925,34 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="7" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="27" lean-forward="false" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
-            <caret line="0" column="6" lean-forward="false" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
+            <caret line="0" column="16" lean-forward="false" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="16" />
             <folding />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/conf.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="13" lean-forward="true" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="57" lean-forward="false" selection-start-line="22" selection-start-column="57" selection-end-line="22" selection-end-column="57" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/robots.txt">
+    <entry file="file://$PROJECT_DIR$/sitemap.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -616,12 +960,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2408">
-          <caret line="30" column="39" lean-forward="true" selection-start-line="30" selection-start-column="39" selection-end-line="30" selection-end-column="39" />
-          <folding />
-        </state>
+    <entry file="file://$PROJECT_DIR$/images/cover.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/profile.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/favicons/android-chrome-36x36.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/favicons/android-chrome-72x72.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
   </component>
