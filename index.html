@@ -145,50 +145,50 @@ body {
 </div>
 <div class="footer"></div>
 
-<!-- duoshuo -->
-{% include duoshuo.js %}
+<!--&lt;!&ndash; duoshuo &ndash;&gt;-->
+<!--{% include duoshuo.js %}-->
 
 <!-- jQuery -->
 <script src="{{ site.jquery_url }}"></script>
 
-<script>
-$(function(){
+<!--<script>-->
+<!--$(function(){-->
 
-  var executeOnLoad = function(selector, loaded_callback) {
-    // console.log("[executeOnLoad] running with selector: " + selector);
-    var $elements = $(selector);
-    if($elements.length) {
-      $elements.each(function(){
-        loaded_callback.call($(this));
-      });
-    } else {
-      setTimeout(function() { executeOnLoad(selector, loaded_callback); }, 100);
-    }
-  }
+  <!--var executeOnLoad = function(selector, loaded_callback) {-->
+    <!--// console.log("[executeOnLoad] running with selector: " + selector);-->
+    <!--var $elements = $(selector);-->
+    <!--if($elements.length) {-->
+      <!--$elements.each(function(){-->
+        <!--loaded_callback.call($(this));-->
+      <!--});-->
+    <!--} else {-->
+      <!--setTimeout(function() { executeOnLoad(selector, loaded_callback); }, 100);-->
+    <!--}-->
+  <!--}-->
 
-  // jquery 3.x remove selector method so I can not get the selector inner
-  // OR I can change it to $(selecor).executeOnLoad(function(){ // code here });
-  executeOnLoad(".ds-meta", function(){ this.remove(); });
-  executeOnLoad("#ds-hot-posts", function(){ this.remove(); });
-  executeOnLoad(".ds-comments-tab-duoshuo", function(){ this.text("博主的说说"); });
-  executeOnLoad(".ds-replybox", function(){
-    // Don't forget the length
-    if (this.find("img[alt="+ duoshuoUserName +"]").length) {
-      this.show();
-    } else {
-      this.remove();
-    }
-  });
+  <!--// jquery 3.x remove selector method so I can not get the selector inner-->
+  <!--// OR I can change it to $(selecor).executeOnLoad(function(){ // code here });-->
+  <!--executeOnLoad(".ds-meta", function(){ this.remove(); });-->
+  <!--executeOnLoad("#ds-hot-posts", function(){ this.remove(); });-->
+  <!--executeOnLoad(".ds-comments-tab-duoshuo", function(){ this.text("博主的说说"); });-->
+  <!--executeOnLoad(".ds-replybox", function(){-->
+    <!--// Don't forget the length-->
+    <!--if (this.find("img[alt="+ duoshuoUserName +"]").length) {-->
+      <!--this.show();-->
+    <!--} else {-->
+      <!--this.remove();-->
+    <!--}-->
+  <!--});-->
 
-	// if found .ds-comments-info then consider comments has loaded
-	executeOnLoad(".ds-comments-info", function(){
-		if ( $(window.location.hash).length > 0 ) {
-			$(window).scrollTop( $(window.location.hash).offset().top );
-		}
-	});
+	<!--// if found .ds-comments-info then consider comments has loaded-->
+	<!--executeOnLoad(".ds-comments-info", function(){-->
+		<!--if ( $(window.location.hash).length > 0 ) {-->
+			<!--$(window).scrollTop( $(window.location.hash).offset().top );-->
+		<!--}-->
+	<!--});-->
 
 
-});
-</script>
+<!--});-->
+<!--</script>-->
 </body>
 </html>
