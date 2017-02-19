@@ -1,8 +1,8 @@
 #GitBlog配置文件，使用4个空格代替Tab
 ---
-url: /
-title: Your-GitBlog
-subtitle: 自豪地采用GitBlog
+url: "www.tylerac.cn"
+title: Tyler's island
+subtitle: That's where I woould like to tell my friends way too much about my work
 theme: simple
 enableCache: true
 highlight: true
@@ -10,13 +10,13 @@ mathjax: false
 katex: false
 duoshuo:
 baiduAnalytics:
-keywords: GitBlog,博客,Markdown博客,jockchou
+keywords: iOS,Python
 description: >
-    GitBlog是一个简单易用的Markdown博客系统
+    Test Blog
 version: 2.2
 author:
-    name: your-name
-    email: your-email@example.com
+    name: Tyler Yang
+    email: yangtielong@gmail.com
     github: your-github
     weibo: your-weibo
     avatar:
@@ -26,6 +26,6 @@ blog:
     pageBarSize: 5
     allBlogsForPage: false
 text:
-    title: 介绍
+    title: Introduction
     intro: >
-          本博客使用Gitblog搭建，欢迎你!
+          Welcome to Tyler's island
