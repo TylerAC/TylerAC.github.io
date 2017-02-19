@@ -5,6 +5,8 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2014-11-20-responsive-web-design.markdown" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2015-03-25-digital-native.markdown" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2015-04-15-os-metro.markdown" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2015-05-25-js-module-loader.markdown" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2015-06-15-alitrip-strategy.markdown" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2015-10-28-how-designer-learn-fe.markdown" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.eot" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.ttf" />
@@ -116,8 +118,6 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2015-03-31-e2e_user_scenarios.markdown" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2015-04-14-unix-linux-note.markdown" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2015-05-11-see-u-ali.markdown" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2015-05-25-js-module-loader.markdown" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2015-06-15-alitrip-strategy.markdown" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2015-07-09-js-module-7day.markdown" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2015-09-22-js-version.markdown" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2015-12-15-ios9-safari-web.markdown" />
@@ -514,12 +514,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1487436777087</updated>
-      <workItem from="1487436779320" duration="720000" />
+      <workItem from="1487436779320" duration="1185000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="720000" />
+    <option name="totallyTimeSpent" value="1185000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="23" width="1400" height="781" extended-state="0" />
