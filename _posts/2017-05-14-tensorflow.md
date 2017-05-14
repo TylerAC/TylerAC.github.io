@@ -19,19 +19,16 @@ Of course you could choose python2 or other version, offical demo is provide wit
   </code></pre>
 
 * install pip
-  <pre><code>
-  $sudo easy_install pip
+  <pre><code>$sudo easy_install pip
   $sudo easy_install --upgrade six
   </code></pre>
 
 * install tensorflow
-  <pre><code>
-  pip install tensorflow
+  <pre><code>pip install tensorflow
   </code></pre>
 
 * update the version with you expect
-  <pre><code>
-  Mac OS X, CPU only, Python 2.7:
+  <pre><code>Mac OS X, CPU only, Python 2.7:
   $ export TF_BINARY_URL=https://storage.googleapis.com/tensorflow/mac/cpu/tensorflow-1.0.0-py2-none-any.whl
   Mac OS X, GPU enabled, Python 2.7:
   $ export TF_BINARY_URL=https://storage.googleapis.com/tensorflow/mac/gpu/tensorflow_gpu-1.0.0-py2-none-any.whl
@@ -52,33 +49,28 @@ Of course you could choose python2 or other version, offical demo is provide wit
 
 ## 2. installing tensorflow in virtualenv
 * tensorflow is suggested to installed in virtualenv so we could keep the configuration for tensorflow in one sandbox, including var environment path etc.
-  <pre><code>
-  $ sudo easy_install pip  
+  <pre><code>$ sudo easy_install pip  
   $ sudo pip install --upgrade virtualenv
   </code></pre>
 
 * create virtualenv environment with new folder
-  <pre><code>
-  $ virtualenv --system-site-packages ~/tensorflow
+  <pre><code>$ virtualenv --system-site-packages ~/tensorflow
   $ cd ~/tensorflow
   </code></pre>
 
 * activate virtualenv
-  <pre><code>
-  $ source bin/activate  # if use bash/zsh
+  <pre><code>$ source bin/activate  # if use bash/zsh
   $ source bin/activate.csh  # if use csh
   </code></pre>
 
 * install tensorflow
-  <pre><code>
-  (tensorflow) tyler$ pip install --upgrade tensorflow-0.5.0-py2-none-any.whl
+  <pre><code>(tensorflow) tyler$ pip install --upgrade tensorflow-0.5.0-py2-none-any.whl
   </code></pre>
   then you could run your case in virtualenv
 
 ## 3. offical demo
-### Python code
-  <pre><code>
-  import os
+Python code
+  <pre><code>import os
   os.environ['TF_CPP_MIN_LOG_LEVEL']='2'
   import tensorflow as tf
   hello = tf.constant('Hello, TensorFlow!')
