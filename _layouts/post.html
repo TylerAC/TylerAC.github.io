@@ -3,7 +3,7 @@ layout: default
 ---
 <header>
   <div class="header-small">
-    <a href="{https://{site.url}}{{site.baseurl}}">{{ site.name }}</a>
+    <a href="http://{{site.url}}{{site.baseurl}}">{{ site.name }}</a>
   </div>
 </header>
 <div class="post">
@@ -15,7 +15,7 @@ layout: default
     <ul>
       {% for tag in page.tags %}
       <li>
-        <a href="{https://{ site.url }}{{ site.baseurl }}/tags#{{ tag }}">
+        <a href="http://{{ site.url }}{{ site.baseurl }}/tags#{{ tag }}">
           <span>{{ tag }}</span>
         </a>
       </li>
