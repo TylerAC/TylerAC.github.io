@@ -1,5 +1,5 @@
 # # # # # # # # # # # # #
-#   K i k o - p l u s   #
+#   tyler - p l u s   #
 # # # # # # # # # # # # #
 
 # Basic
@@ -24,7 +24,7 @@ author:
 
 copyright:
   year:             2017
-  name:             Kiko
+  name:             Tyler
 
 # Google-analytics
 google-analytics:
@@ -32,7 +32,7 @@ google-analytics:
 
 # Disqus
 disqus:
-  id:               "kiko-plus"
+  id:               "tyler-plus"
 
 # URL
 url:                "TylerAC.github.io" # the base hostname & protocol for your site
