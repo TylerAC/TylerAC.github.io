@@ -3,7 +3,7 @@ layout: post
 title: "Install tensorflow on Mac"
 description: "this one is to share how to install tensorflow in mac with cpu and gpu version, and get started with python3"
 date: 2017-05-14
-tags: [tensorflow], python]
+tags: [tensorflow, python]
 comments: true
 share: true
 ---
