@@ -15,9 +15,9 @@ this one is to share how to install tensorflow in mac with cpu and gpu version, 
 ## 1. preparation for installing tensorflow with python3
 Of course you could choose python2 or other version, offical demo is provide with python3, so python3 version will help you get ride of some troubles.
 * [Homebrew](https://brew.sh/) is wanted for installing python.
-###
+<pre><code>brew install python
+</code></pre>
 
-  brew install python
 
 * install pip
 ###
@@ -29,7 +29,7 @@ Of course you could choose python2 or other version, offical demo is provide wit
 ###
 
   pip install tensorflow
-  
+
 * update the version with you expect
   Mac OS X, CPU only, Python 2.7:
   $ export TF_BINARY_URL=https://storage.googleapis.com/tensorflow/mac/cpu/tensorflow-1.0.0-py2-none-any.whl
