@@ -40,56 +40,54 @@ fetch: get the data from operation
 </code></pre>
 
 * create the tensors
-<pre><code>node1 = tf.constant([[3., 3.]])
-node2 = tf.constant([[2.],[2.]])
-</code></pre>
+  <pre><code>node1 = tf.constant([[3., 3.]])
+  node2 = tf.constant([[2.],[2.]])
+  </code></pre>
 
 * crate the operation
-<pre><code>product = tf.matmul(node1, node2)
-</code></pre>
+  <pre><code>product = tf.matmul(node1, node2)
+  </code></pre>
 
 * run the op(operation) in Session
-You could by this:
-<pre><code>sess = tf.Session()
-print(sess.run(product))
-then you need to close the Session
-sess.close()
-</code></pre>
+  You could by this:
+  <pre><code>sess = tf.Session()
+  print(sess.run(product))
+  then you need to close the Session
+  sess.close()
+  </code></pre>
 
+  but you'd better do by folowing:
+  <pre><code>with tf.Session() as sess:
+      with tf.device("/gpu:0"):
+         result = sess.run(product)
+             print(result)
+  </code></pre>
 
-but you'd better do by folowing:
-<pre><code>with tf.Session() as sess:
-    with tf.device("/gpu:0"):
-       result = sess.run(product)
-           print(result)
-</code></pre>
-
-This code will help you that when you operations are finished, the seesion will be closed automatically.
-*with tf.device("/gpu:0")* will be optional, which help you choose which device to finish your task
+  This code will help you that when you operations are finished, the seesion will be closed automatically.
+  **with tf.device("/gpu:0")** will be optional, which help you choose which device to finish your task
 
 * crate the variable
-You could create the variable and update the its value by folowing:
-<pre><code>state = tf.Variable(0, name = "hello")
-one = tf.constant(1)
-new_value = tf.add(state, one)
-update = tf.assign(state, new_value)
-</code></pre>
-
+  You could create the variable and update the its value by folowing:
+  <pre><code>state = tf.Variable(0, name = "hello")
+  one = tf.constant(1)
+  new_value = tf.add(state, one)
+  update = tf.assign(state, new_value)
+  </code></pre>
 
 * fetch the data
-Before you call the *run()* of *Session*, you could create the tensor to help you get the result
-<pre><code>result = sess.run([mul2, mul1])
-</code></pre>
+  Before you call the **run()** of **Session**, you could create the tensor to help you get the result
+  <pre><code>result = sess.run([mul2, mul1])
+  </code></pre>
 
-will give you the result after finishing the operations of mul2 and mul1
+  will give you the result after finishing the operations of mul2 and mul1
 
 * feed the data
-You could use *tf.placeholder()* to init your variable, and the feed the value when your Session runs as following:
-<pre><code>input1 = tf.placeholder(tf.float32)
-input2 = tf.placeholder(tf.float32)
-output = tf.multiply(input1, input2)
+  You could use **tf.placeholder()** to init your variable, and the feed the value when your Session runs as following:
+  <pre><code>input1 = tf.placeholder(tf.float32)
+  input2 = tf.placeholder(tf.float32)
+  output = tf.multiply(input1, input2)
 
-with *tf.Session()* as sess:
-    #it will run wrong while feed_dict is not configed right
-      print(sess.run([output], feed_dict = {input1:[7.], input2:[2.]}))
-</code></pre>
+  with **tf.Session()** as sess:
+      #it will run wrong while feed_dict is not configed right
+        print(sess.run([output], feed_dict = {input1:[7.], input2:[2.]}))
+  </code></pre>
