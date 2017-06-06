@@ -2,7 +2,7 @@
 layout: post
 title: "Train the model with MNIST data "
 description: "this guide help you know how to train a model with MNIST data"
-date: 2017-06-06
+date: 2017-06-05
 tags: [tensorflow, python, MNIST]
 comments: true
 share: true
